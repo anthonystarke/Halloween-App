@@ -8,7 +8,18 @@ var currentTime = hours + ":" + minutes
 spaceForTime.textContent = currentTime;
 
 
+window.addEventListener("scroll", scrolly)
+
 var x = 0;
-function myFunction() {
-  document.getElementById("demo").innerHTML = x += 1;
+function scrolly() {
+    if (pageYOffset > 200) {
+      // document.getElementById("demo").innerHTML = x += 1;
+      document.getElementById("wrapper").style.display = "none";
+      document.getElementById("main").style.display = "none";
+      document.getElementById("scaryImage").style.display = "inline";
+      // document.getElementByTag('body').background-image: "";
+      document.body.style.backgroundImage = "url('./images/empty.jpg')";
+
+
+    }
 }
