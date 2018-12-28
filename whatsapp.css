@@ -78,11 +78,10 @@ img {
   margin:0; */
 }
 
-.scaryImage{
+#scaryImage{
   z-index: 1;
   width:100%;
-  display:none;
-
+  display: none;
 }
 
 #scare {
