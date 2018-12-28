@@ -7,12 +7,55 @@ body {
 }
 .leftMsg {
 
+  align: left;
+  float: left;
+  /* margin-right: 51%; */
+  margin: 8px 30% 8px 0;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  padding: 3px 10px 3px 10px;
+  background-color: #FDFDFD;
+  border-radius: 5px;
+  display:  block;
+  font-family: "HelveticaNeue";
+  font-size: 18px;
+
 }
 
 .rightMsg {
 
+  align: left;
+  float: right;
+  position: relative;
+  /* margin-left: 30%; */
+  margin: 8px 0 8px 30%;
+  /* padding-right: 10px;
+  padding-left: 10px; */
+  padding: 3px 10px 3px 10px;
+  background-color: #DCFDC0;
+  border-radius: 5px;
+  font-family: "HelveticaNeue";
+  font-size: 18px;
+
 }
 
+.textTime {
+  float: right;
+  text-align: right;
+  font-size: 13px;
+  padding-top: 7px;
+  padding-left: 20px;
+  /* height: 100%; */
+  color: grey;
+}
 #scare {
-  
+
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeue-MediumExt.woff") format("woff");
+}
+.helvetFont{
+  font-family: "HelveticaNeue"
 }
