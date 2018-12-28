@@ -71,11 +71,49 @@
 }
 
 .videoCall {
-  padding-right: 15px;
+padding-right: 15px;
  width: 90px;
  height: 33px;
 }
 
 #footer {
+  width: 100%;
+  background-color: #f6f7f8;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #F2EDED;
+}
 
+.plusPic {
+  width: 33px;
+  height: 33px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+#chatBox {
+  float:left;
+  margin: 4px 10px 4px 8px;
+  height: 40px;
+  width: 55%;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #F2EDED;
+}
+
+#chatBox img {
+  float: right;
+  width: 29px;
+  height: 29px;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+.photoCameraPic {
+  width: 95px;
+  height: 40px;
+  position: relative;
+  float: right;
+  margin-right: 8px;
+  margin-top: 5px;
 }
