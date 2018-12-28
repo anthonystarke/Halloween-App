@@ -1,9 +1,10 @@
 body {
-  background-image: url('./images/wallpaper.png')
+  background-image: url('./images/wallpaper.png');
+  margin: 0;
 }
 
 #main {
-
+  padding-top: 75px;
 }
 .leftMsg {
 
