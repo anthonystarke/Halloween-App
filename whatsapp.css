@@ -46,10 +46,16 @@ body {
   padding-left: 20px;
   /* height: 100%; */
   color: grey;
+
+  /* border-style: solid;
+  border: 1px; */
+
 }
 
 img {
-  width:  20px;
+  /* border: 1px;
+  border-style:solid; */
+  width:  18px;
   /* padding-top: 7px;
   margin:0; */
 }
