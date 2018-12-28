@@ -1,11 +1,29 @@
 body {
   background-image: url('./images/wallpaper.png');
   margin: 0;
+  opacity: 1;
+}
+
+/* body:hover{
+  display: none;
+} */
+
+::-webkit-scrollbar {
+    /* display: none; */
 }
 
 #main {
   padding-top: 75px;
 }
+
+#wrapper{
+  /* display:none; */
+}
+
+#main {
+  /* display:none; */
+}
+
 .leftMsg {
 
   align: left;
@@ -46,7 +64,27 @@ body {
   padding-left: 20px;
   /* height: 100%; */
   color: grey;
+
+  /* border-style: solid;
+  border: 1px; */
+
 }
+
+img {
+  /* border: 1px;
+  border-style:solid; */
+  width:  18px;
+  /* padding-top: 7px;
+  margin:0; */
+}
+
+.scaryImage{
+  z-index: 1;
+  width:100%;
+  display:none;
+
+}
+
 #scare {
 
 }
