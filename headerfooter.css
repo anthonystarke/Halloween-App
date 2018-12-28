@@ -18,6 +18,16 @@
 
 }
 
+#time {
+  margin: 2px auto;
+  font-size: 12px;
+  font-family: "HelveticaNeue";
+  font-weight: bold;
+  position: fixed;
+  top: 3px;
+  left: 46%;
+}
+
 #headerSecondRow {
   padding-top: 30px;
   width: 100%;
