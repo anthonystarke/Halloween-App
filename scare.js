@@ -4,7 +4,6 @@ var hours = time.getHours();
 var minutes = time.getMinutes();
 
 var currentTime = hours + ":" + minutes;
-
 spaceForTime.textContent = currentTime;
 
 window.addEventListener("scroll", scrolly);
@@ -23,5 +22,6 @@ function scrolly() {
       // document.getElementByTag('body').background-image: "";
       document.body.style.backgroundImage = "url('./images/empty.jpg')";
       document.body.style.backgroundColor = "black";
-    }
+
+      }
 }
