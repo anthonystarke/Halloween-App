@@ -1,10 +1,9 @@
+// Add current time to top of page
 var spaceForTime = document.getElementById("time")
 var time = new Date()
 var hours = time.getHours()
 var minutes = time.getMinutes()
-
 var currentTime = hours + ":" + minutes
-
 spaceForTime.textContent = currentTime;
 
 
@@ -19,7 +18,5 @@ function scrolly() {
       document.getElementById("scaryImage").style.display = "inline";
       // document.getElementByTag('body').background-image: "";
       document.body.style.backgroundImage = "url('./images/empty.jpg')";
-
-
     }
 }
