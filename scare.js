@@ -7,7 +7,7 @@ var currentTime = hours + ":" + minutes;
 
 spaceForTime.textContent = currentTime;
 
-window.addEventListener("scroll", scrolly);
+// window.addEventListener("scroll", scrolly);
 
 function playAudio() {
   var x = document.getElementById("myAudio");
