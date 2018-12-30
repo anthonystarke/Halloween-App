@@ -29,15 +29,17 @@ body {
   align: left;
   float: left;
   /* margin-right: 51%; */
-  margin: 8px 30% 8px 0;
+  margin: 8px 30% 8px 5vw;
   /* padding-left: 10px;
   padding-right: 10px; */
-  padding: 3px 10px 3px 10px;
+  padding: 2vw 3vw 2vw 3vw;
   background-color: #FDFDFD;
-  border-radius: 5px;
+  border-radius: 30px;
   display:  block;
   font-family: "HelveticaNeue";
-  font-size: 18px;
+  font-size: 6vw;
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+
 }
 
 .rightMsg {
@@ -46,22 +48,23 @@ body {
   float: right;
   position: relative;
   /* margin-left: 30%; */
-  margin: 8px 0 8px 30%;
+  margin: 8px 5vw 8px 30%;
   /* padding-right: 10px;
   padding-left: 10px; */
-  padding: 3px 10px 3px 10px;
+  padding: 2vw 3vw 2vw 3vw;
   background-color: #DCFDC0;
-  border-radius: 5px;
+  border-radius: 30px;
   font-family: "HelveticaNeue";
-  font-size: 18px;
+  font-size: 6vw;
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
 }
 
 .textTime {
   float: right;
   text-align: right;
-  font-size: 13px;
-  padding-top: 7px;
-  padding-left: 20px;
+  font-size: 3vw;
+  padding-top: 2vw;
+  padding-left: 4vw;
   /* height: 100%; */
   color: grey;
 
@@ -73,7 +76,7 @@ body {
 img {
   /* border: 1px;
   border-style:solid; */
-  width:  18px;
+  width:  4vw;
   /* padding-top: 7px;
   margin:0; */
 }
