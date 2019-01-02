@@ -85,7 +85,7 @@ body {
   content: '';
 	position: absolute;
 	left: 0;
-	top: 2vw;
+	bottom: 2vw;
 	width: 0;
 	height: 0;
 	border: 5.5vw solid transparent;
@@ -116,7 +116,7 @@ body {
   content: '';
 	position: absolute;
 	right: 0;
-  top: 2vw;
+  bottom: 2vw;
 	width: 0;
 	height: 0;
 	border: 5vw solid transparent;
@@ -142,7 +142,7 @@ body {
 
 }
 
-img {
+.tickImage {
   /* border: 1px;
   border-style:solid; */
   width:  4vw;
